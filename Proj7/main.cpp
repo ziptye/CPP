@@ -27,6 +27,7 @@ int main()
     cout << "Before swap: " << x << " " << y << endl;
     swap(x, y);
     cout << "Swapped: " << x << " " << y << endl;
+    cout << "Hello from main" << endl;
     return 0;
 }
 
@@ -37,4 +38,5 @@ void swap(int &a, int &b)
     int temp = a;
     a = b;
     b = temp;
+    cout << "Hello from this function" << endl;
 }
